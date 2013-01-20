@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="dac">
+		<class>org.ufpr.dac.entity.AtividadeChamado</class>
+		<class>org.ufpr.dac.entity.AtividadeChamadoPK</class>
+		<class>org.ufpr.dac.entity.Campanha</class>
+		<class>org.ufpr.dac.entity.Chamado</class>
+		<class>org.ufpr.dac.entity.Cliente</class>
+		<class>org.ufpr.dac.entity.Compra</class>
+		<class>org.ufpr.dac.entity.Endereco</class>
+		<class>org.ufpr.dac.entity.Fornecedor</class>
+		<class>org.ufpr.dac.entity.NotaFiscal</class>
+		<class>org.ufpr.dac.entity.Pessoa</class>
+		<class>org.ufpr.dac.entity.Produto</class>
+		<class>org.ufpr.dac.entity.ProdutoNotaFiscal</class>
+		<class>org.ufpr.dac.entity.ProdutoNotaFiscalPK</class>
+		<class>org.ufpr.dac.entity.TipoCampanha</class>
+		<class>org.ufpr.dac.entity.TipoChamado</class>
+		<class>org.ufpr.dac.entity.Usuario</class>
+		<class>org.ufpr.dac.entity.Venda</class>
+	</persistence-unit>
+</persistence>
